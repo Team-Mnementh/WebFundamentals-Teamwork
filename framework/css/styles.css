@@ -4,8 +4,40 @@ body {
     background-color: skyblue;
 }
 
+h1,h2 {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     color: red;
     font-size: 24px;
     font-weight: bold;
+}
+
+h1>span {
+    display: block;
+    font-size: 20px;
+}
+
+.question {
+    background-color: lightgreen;
+    border: 1px solid #f3be60;
+    margin-bottom: 10px;
+    
+}
+
+.question > h2 {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.answers {
+    background-color: #fbeec9;
+    padding: 10px
+}
+
+.answers label {
+    display: block;
+    margin: 2px 0;
 }
