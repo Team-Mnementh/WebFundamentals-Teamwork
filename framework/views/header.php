@@ -11,11 +11,12 @@
 
 			<nav>
 				<ul>
-					<li><a href="#">Jokes</a></li>				
-					<li><a href="quiz.php">Quiz</a></li>
-					<li><a href="dreamer.php">Dreamer</a></li>
+					<li><a href="http://su.gloffice.eu">Main</a></li>
+					<li><a href="#">Jokes</a></li>			
+					<li><a href="http://su.gloffice.eu/quiz">Quiz</a></li>
+					<li><a href="http://su.gloffice.eu/dreamer">Dreamer</a></li>
 					<li><a href="#">Pictures</a></li>
-					<li><a href="test.php">Video</a></li>
+					<li><a href="http://su.gloffice.eu/test">Video</a></li>
 				</ul>
 			</nav>
-	</header>
+		</header>
