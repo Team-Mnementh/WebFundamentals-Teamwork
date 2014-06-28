@@ -13,37 +13,141 @@ p {
 }
 @font-face {
   font-family: SketchRockwell;
-  src: url("fonts/SketchRockwell-Bold.ttf");
+  src: url("../fonts/SketchRockwell-Bold.ttf");
 }
 body {
   font-family: 'Tahoma', Calibri, Arial, sans-serif;
   font-size: 62.5%;
+  width: 100%;
+  height: 100%;
 }
 body header {
-  font-family: SketchRockwell;
+  font-family: 'SketchRockwell', Tahoma;
 }
 body header h1 {
   font-size: 4em;
+  font-family: SketchRockwell;
   text-align: center;
-  padding: 3%;
+  padding-top: 1.5%;
+  padding-bottom: 2%;
 }
 body header h1 span {
   display: block;
-  margin-left: 25%;
+  margin-left: 21.5%;
 }
 body header nav ul {
   text-align: center;
 }
 body header nav ul li {
   display: inline-block;
+  position: relative;
+}
+body header nav ul li:hover ul {
+  display: block;
+  font-size: .8em;
+  position: absolute;
+}
+body header nav ul li ul {
+  display: none;
 }
 body header nav ul li a {
   display: block;
+  border: 4px outset grey;
   border-radius: 5px 20px;
   background-color: #000;
   font-size: 2em;
   color: #fff;
+  box-shadow: 4px 2px 10px #000;
   text-decoration: none;
   padding: 10px 15px;
   margin-right: 10px;
+}
+body header nav ul li a:hover {
+  border: 4px inset gray;
+  box-shadow: none;
+  opacity: .9;
+  transition: all 0.2s ease 0s;
+}
+body > section {
+  width: 80%;
+  min-height: 60%;
+  margin: 3% auto;
+}
+body > section header h2 {
+  border: 2px solid #000;
+  border-radius: 40%;
+  font-size: 2em;
+  text-align: center;
+  padding: 1.2%;
+}
+body > section article header h3 {
+  font-size: 1.8em;
+}
+body > section article p {
+  font-size: 1.4em;
+  text-align: justify;
+  margin: 2%;
+}
+body .jokes {
+  width: 60%;
+}
+body .jokes article {
+  padding: 1% 15%;
+}
+body .poems {
+  width: 60%;
+}
+body .poems article {
+  padding: 1% 15%;
+}
+body .poems article header h3 {
+  text-align: center;
+}
+body .poems article p {
+  padding-left: 30%;
+}
+body .tales {
+  width: 60%;
+}
+body .tales article {
+  padding: 1% 15%;
+}
+body footer {
+  background-color: #000;
+  border-top: 4px outset grey;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+body footer section {
+  width: 80%;
+  margin: 2% auto 1%;
+}
+body footer section div {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 15%;
+  vertical-align: bottom;
+  width: 20%;
+  margin-bottom: 1%;
+}
+body footer section div:nth-child(2) {
+  width: 70%;
+  margin-left: 5%;
+}
+body footer section div header h4 {
+  font-size: 1.5em;
+  text-align: center;
+}
+body footer section div p {
+  color: grey;
+  font-size: 1.3em;
+  text-align: center;
+  padding: 1%;
+}
+body footer section div a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
