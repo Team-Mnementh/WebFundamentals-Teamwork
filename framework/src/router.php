@@ -50,7 +50,7 @@ class Router {
 		self::_parseSegments();
 	}
 	
-	public function getInstance() {
+	public static function getInstance() {
 		if (self::$_instance==null) {
 			self::$_instance = new Router();
 		}

@@ -71,6 +71,9 @@ class Dispatcher {
 			case "test":
 				$title = "Тестова страница";
 				break;
+                        case "dreamer":
+				$title = "SoftUni съновник";
+				break;
 			default:
 				$title = "Начало";
 			break;

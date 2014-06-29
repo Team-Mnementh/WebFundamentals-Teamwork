@@ -1,4 +1,5 @@
 <?php
+include 'config.php';
 include 'dispatcher.php';
 include 'router.php';
 include 'view.php';

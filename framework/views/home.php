@@ -1,6 +1,7 @@
 <section>
+<<<<<<< HEAD
 	<header>
-		<h2>Добре дошли ! (или нещо по-добро :) )</h2>			
+		<h2>Добре дошли ! :) )</h2>			
 	</header>
 
 	<article>
@@ -50,10 +51,30 @@
 	</article>
 
 	<div>
+		<header>
+			<h3>Изтегли си късметче:</h3>
+		</header>
+		
+		<section>
+			<button onclick="getWish()">Късметче</button>
+
+			<textarea id="text" placeholder="Днес ще..."></textarea>
+			
+			<script src="../script/luckyScript.js" ></script>				
+		</section>			
+	</div>	
+</section>
+=======
+	<h1>Home page</h1>
+	<p>This is  homepage</p>
+	
+	<section>
 		<p>Изтегли си късметче: </p>
 		<button onclick="getWish()">Бутон на късмета</button>
 		<textarea id="text" placeholder="Днес ще..."></textarea>
 			
 		<script src="../script/luckyScript.js" ></script>
-	</div>	
+	</section>
 </section>
+
+>>>>>>> parent of 83b8abb... Main page update.

@@ -1,7 +1,7 @@
 <section>
     <h1>SoftUni тест <span>Истинска SoftUni нинджа ли си?</span></h1>
     
-    <form action="" method="POST">
+    <form id="quiz" onsubmit="quizRezult();">
         <div class="question">
             <h2>1. Как обикновено ти започва деня:</h2>
             <div class="answers">
@@ -132,6 +132,8 @@
                     <span>Нямам време за ядене</span>
                 </label>
             </div>
-        </div>   
+        </div>
+        <input type="submit" value="Submit">
     </form>
+    <button onclick="quizRezult();">Result</button>
 </section>
