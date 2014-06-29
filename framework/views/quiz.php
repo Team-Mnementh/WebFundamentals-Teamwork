@@ -174,5 +174,7 @@
                 </label>
             </div> 
         </form>
-    </article>    
+		<button onclick="quizRezult();">Result</button>
+		<script src="script/quiz.js"></script>
+    </article> 
 </section>
