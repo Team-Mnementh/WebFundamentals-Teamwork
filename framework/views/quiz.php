@@ -1,140 +1,178 @@
-<section>
-    <h1>SoftUni тест <span>Истинска SoftUni нинджа ли си?</span></h1>
-    
-    <form id="quiz" onsubmit="quizRezult();">
-        <div class="question">
-            <h2>1. Как обикновено ти започва деня:</h2>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q1" value="1">
-                    <span>Ставам в 6:30, къпя се, пия кафе и излизам по задачи</span>
-                </label>
-                <label>
-                    <input type="radio" name="q1" value="2">
-                    <span>Уф, докато стана и се оправя, той деня минал, за нищо не ми остава време</span>
-                </label>
-                <label>
-                    <input type="radio" name="q1" value="3">
-                    <span>Кой ден...?</span>
-                </label>
-                <label>
-                    <input type="radio" name="q1" value="4">
-                    <span>Не ме занимавайте с глупости, не виждате ли че имам 50 домашни на главата.</span>
-                </label>
-            </div>
-        </div>
+<section class="question">
         
-        <div class="question">
-            <h2>2. По колко часа на ден спите</h2>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q2" value="1">
-                    <span>Лягам в 22:30 и ставам в 6:30</span>
-                </label>
-                <label>
-                    <input type="radio" name="q2" value="2">
-                    <span>Тия моите съседи като се разлопат сутрин към 11:30 и направо откачам.</span>
-                </label>
-                <label>
-                    <input type="radio" name="q2" value="3">
-                    <span>Обикновено спа нощем</span>
-                </label>
-                <label>
-                    <input type="radio" name="q2" value="4">
-                    <span>Какъв сън бе човек, не виждаш ли че ми пуши главата с тия домашни.</span>
-                </label>
-            </div>
-        </div>
-        
-        <div class="question">
-            <h2>3. Колко често излизате с приятели на бира</h2>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q3" value="1">
-                    <span>Всеки петък и събота вечер</span>
-                </label>
-                <label>
-                    <input type="radio" name="q3" value="2">
-                    <span>Всеки ден някъде запиваме</span>
-                </label>
-                <label>
-                    <input type="radio" name="q3" value="3">
-                    <span>За какво ми е да излизам нали затова е измислен интернет и скайп</span>
-                </label>
-                <label>
-                    <input type="radio" name="q3" value="4">
-                    <span>Почваш яко да ми лазиш по нервите</span>
-                </label>
-            </div>
-        </div>
+    <header>
+        <h2>SoftUni тест </h2> 
+    </header>
 
-        <div class="question">
-            <h2>4. Кога за последно сте се напивали безпаметно</h2>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q4" value="1">
-                    <span>Като студент, има периоди, когато ми се губят дни, но сега понамалих темпото</span>
-                </label>
-                <label>
-                    <input type="radio" name="q4" value="2">
-                    <span>Ела, ако искаш с нас довечера, да видиш как ще се усмъртим</span>
-                </label>
-                <label>
-                    <input type="radio" name="q4" value="3">
-                    <span>Не пия, откакто след един запой си смених паролите</span>
-                </label>
-                <label>
-                    <input type="radio" name="q4" value="4">
-                    <span>Само да завърша курса и един месец няма да изтрезнея</span>
-                </label>
-            </div>
-        </div>
+    <article>
+        <header>
+            <h3>Истинска SoftUni нинджа ли си?</h3>
+        </header>
 
-        <div class="question">
-            <h2>5. Имате ли партньор в живота</h2>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q5" value="1">
-                    <span>Да, женен съм с 2 деца</span>
-                </label>
-                <label>
-                    <input type="radio" name="q5" value="2">
-                    <span>Абе, братле, да ти изглеждам на мъж за една жена</span>
-                </label>
-                <label>
-                    <input type="radio" name="q5" value="3">
-                    <span>Да, Toshiba Tecra W50</span>
-                </label>
-                <label>
-                    <input type="radio" name="q5" value="4">
-                    <span>Ей сега ти счупих главата ...</span>
-                </label>
-            </div>
-        </div>
+        <form action="" method="POST">
+            
+            <div>
+                
+                <p>1. Как обикновено ти започва деня:</p>
 
-        <div class="question">
-            <h2>6. Какво хапвате най-често</h2>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q6" value="1">
-                    <span>Жена ми прави много хубава мусака</span>
+                <input id="question1_answer1" type="radio" name="q1" value="1">
+                <label for="question1_answer1">
+                Ставам в 6:30, къпя се, пия кафе и излизам по задачи
                 </label>
-                <label>
-                    <input type="radio" name="q6" value="2">
-                    <span>Квото дойде, че напоследък няма кинти за пиячка</span>
+                <br/>
+            
+                <input id="question1_answer2" type="radio" name="q1" value="2">
+                <label for="question1_answer2">
+                    Уф, докато стана и се оправя, той деня минал, за нищо не ми остава време
                 </label>
-                <label>
-                    <input type="radio" name="q6" value="3">
-                    <span>Хамбургер с кола</span>
+                <br />
+                
+                <input id="question1_answer3" type="radio" name="q1" value="3">
+                <label for="question1_answer3">
+                    Кой ден...?
                 </label>
-                <label>
-                    <input type="radio" name="q6" value="4">
-                    <span>Нямам време за ядене</span>
+                <br />
+
+                <input id="question1_answer4" type="radio" name="q1" value="4">
+                <label for="question1_answer4">
+                    Не ме занимавайте с глупости, не виждате ли че имам 50 домашни на главата.
                 </label>
             </div>
-        </div>
-        <input type="submit" value="Submit">
-    </form>
-    <button onclick="quizRezult();">Result</button>
-	<script src="script/quiz.js"></script>
+            
+            <div>
+                <p>2. По колко часа на ден спите?</p>
+
+                <input id="question2_answer1" type="radio" name="q2" value="1">
+                <label for="question2_answer1">
+                    Лягам в 22:30 и ставам в 6:30
+                </label>
+                <br />
+
+                <input id="question2_answer2" type="radio" name="q2" value="2">
+                <label for="question2_answer2">
+                    Тия моите съседи като се разлопат сутрин към 11:30 и направо откачам.
+                </label>
+                <br />
+
+                <input id="question2_answer3" type="radio" name="q2" value="3">
+                <label for="question2_answer3">
+                    Обикновено спа нощем
+                </label>
+                <br />
+
+                <input id="question2_answer4" type="radio" name="q2" value="4">
+                <label for="question2_answer4">
+                    Какъв сън бе човек, не виждаш ли че ми пуши главата с тия домашни.
+                </label>
+            </div>  
+
+            <div>
+                <p>3. Колко често излизате с приятели на бира</p>
+
+                <input id="question3_answer1" type="radio" name="q3" value="1">
+                <label for="question3_answer1">
+                    Всеки петък и събота вечер
+                </label>
+                <br />
+
+                <input id="question3_answer2" type="radio" name="q3" value="2">
+                <label for="question3_answer2">
+                    Всеки ден някъде запиваме
+                </label>
+                <br />
+
+                <input id="question3_answer3" type="radio" name="q3" value="3">
+                <label for="question3_answer3">
+                    За какво ми е да излизам нали затова е измислен интернет и скайп
+                </label>
+                <br />
+
+                <input id="question3_answer4" type="radio" name="q3" value="4">
+                <label for="question3_answer4">
+                    Почваш яко да ми лазиш по нервите
+                </label>
+            </div>
+
+            <div>
+                <p>4. Кога за последно сте се напивали безпаметно?</p>
+
+                <input id="question4_answer1" type="radio" name="q4" value="1">
+                <label for="question4_answer1">
+                    Като студент, има периоди, когато ми се губят дни, но сега понамалих темпото
+                </label>
+                <br />
+
+                <input id="question4_answer2" type="radio" name="q4" value="2">
+                <label for="question4_answer2">
+                    Ела, ако искаш с нас довечера, да видиш как ще се усмъртим
+                </label>
+                <br />
+
+                <input id="question4_answer3" type="radio" name="q4" value="3">
+                <label for="question4_answer3">
+                    Не пия, откакто след един запой си смених паролите
+                </label>
+                <br />
+
+                <input id="question4_answer4" type="radio" name="q4" value="4">
+                <label for="question4_answer4">
+                    Само да завърша курса и един месец няма да изтрезнея
+                </label>
+            </div>
+            
+            <div>
+                <p>5. Имате ли партньор в живота?</p>
+
+                <input id="question5_answer1" type="radio" name="q5" value="1">
+                <label for="question5_answer1">
+                    Да, женен съм с 2 деца
+                </label>
+                <br />
+
+                <input id="question5_answer2" type="radio" name="q5" value="2">
+                <label for="question5_answer2">
+                    Абе, братле, да ти изглеждам на мъж за една жена
+                </label>
+                <br />
+
+                <input id="question5_answer3" type="radio" name="q5" value="3">
+                <label for="question5_answer3">
+                    Да, Toshiba Tecra W50
+                </label>
+                <br />
+
+                <input id="question5_answer4" type="radio" name="q5" value="4">
+                <label for="question5_answer4">
+                    Ей сега ти счупих главата ...
+                </label>
+            </div>                    
+
+            <div>
+                <p>6. Какво хапвате най-често?</p>
+
+                <input id="question6_answer1" type="radio" name="q6" value="1">
+                <label for="question6_answer1">
+                    Жена ми прави много хубава мусака
+                </label>
+                <br />
+
+                <input id="question6_answer2" type="radio" name="q6" value="2">
+                <label for="question6_answer2">
+                    Квото дойде, че напоследък няма кинти за пиячка
+                </label>
+                <br />
+
+                <input id="question6_answer3" type="radio" name="q6" value="3">
+                <label for="question6_answer3">
+                    Хамбургер с кола
+                </label>
+                <br />
+
+                <input id="question6_answer4" type="radio" name="q6" value="4">
+                <label for="question6_answer4">
+                    Нямам време за ядене
+                </label>
+            </div> 
+        </form>
+    </article>    
 </section>

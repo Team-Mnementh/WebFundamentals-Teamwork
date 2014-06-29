@@ -130,6 +130,17 @@ body .tales {
 body .tales article {
   padding: 1% 15%;
 }
+body .question article form div {
+  width: 80%;
+  height: 100%;
+  margin-bottom: 3%;
+}
+body .question article form div p {
+  font-size: 1.9em;
+}
+body .question article form div label {
+  font-size: 1.6em;
+}
 body .pictures {
   text-align: center;
 }
