@@ -136,4 +136,5 @@
         <input type="submit" value="Submit">
     </form>
     <button onclick="quizRezult();">Result</button>
+	<script src="script/quiz.js"></script>
 </section>
