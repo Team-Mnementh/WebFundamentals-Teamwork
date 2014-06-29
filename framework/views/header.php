@@ -7,9 +7,8 @@
 	</head>
 	<body>
 		<header>
-			<h1>Soft Uni <span>Fun Zone</span></h1>
+		<h1>Soft Uni <span>Fun Zone</span></h1>
 
-<<<<<<< HEAD
 		<nav>
 			<ul>
 				<li><a href="http://su.gloffice.eu">Main</a></li>
@@ -32,16 +31,3 @@
 			</ul>
 		</nav>
 	</header>
-=======
-			<nav>
-				<ul>
-					<li><a href="http://su.gloffice.eu">Main</a></li>
-					<li><a href="#">Jokes</a></li>			
-					<li><a href="http://su.gloffice.eu/quiz">Quiz</a></li>
-					<li><a href="http://su.gloffice.eu/dreamer">Dreamer</a></li>
-					<li><a href="#">Pictures</a></li>
-					<li><a href="http://su.gloffice.eu/test">Video</a></li>
-				</ul>
-			</nav>
-		</header>
->>>>>>> parent of 83b8abb... Main page update.

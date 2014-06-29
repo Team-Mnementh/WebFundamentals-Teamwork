@@ -18,7 +18,7 @@
 
 		<img src="" alt="pic3" width="350" height="240" />
 
-		<img src="" alt="pic4" width="350" height="240" />		
+		<img src="" alt="pic4" width="350" height="240" />			
 	</article>
 
 	<hr />

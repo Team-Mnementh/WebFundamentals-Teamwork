@@ -8,7 +8,7 @@
 	<article>
 		<header>
 			<h3>
-				С две думи - Java!!
+				С две думи - Java
 			<h3>
 		</header>
 

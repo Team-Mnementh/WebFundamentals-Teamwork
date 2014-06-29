@@ -13,41 +13,55 @@ p {
 }
 @font-face {
   font-family: SketchRockwell;
-  src: url("fonts/SketchRockwell-Bold.ttf");
+  src: url("../fonts/SketchRockwell-Bold.ttf");
 }
 body {
   font-family: 'Tahoma', Calibri, Arial, sans-serif;
   font-size: 62.5%;
+  width: 100%;
+  height: 100%;
 }
 body header {
-  font-family: SketchRockwell;
+  font-family: 'SketchRockwell', Tahoma;
 }
 body header h1 {
   font-size: 4em;
+  font-family: SketchRockwell;
   text-align: center;
-  padding: 3%;
+  padding-top: 1.5%;
+  padding-bottom: 2%;
 }
 body header h1 span {
   display: block;
-  margin-left: 25%;
+  margin-left: 21.5%;
 }
 body header nav ul {
   text-align: center;
 }
 body header nav ul li {
   display: inline-block;
+  position: relative;
+}
+body header nav ul li:hover ul {
+  display: block;
+  font-size: .8em;
+  position: absolute;
+}
+body header nav ul li ul {
+  display: none;
 }
 body header nav ul li a {
   display: block;
+  border: 4px outset grey;
   border-radius: 5px 20px;
   background-color: #000;
   font-size: 2em;
   color: #fff;
+  box-shadow: 4px 2px 10px #000;
   text-decoration: none;
   padding: 10px 15px;
   margin-right: 10px;
 }
-<<<<<<< HEAD
 body header nav ul li a:hover {
   border: 4px inset gray;
   box-shadow: none;
@@ -173,5 +187,3 @@ body footer section div a {
   margin-top: 2%;
   margin-bottom: 2%;
 }
-=======
->>>>>>> parent of 83b8abb... Main page update.
