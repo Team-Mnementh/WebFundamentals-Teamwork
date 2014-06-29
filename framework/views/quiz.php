@@ -174,7 +174,7 @@
                 </label>
             </div> 
         </form>
-		<button onclick="quizRezult();">Result</button>
+		<button onclick="quizRezult();">Дай да видя!</button>
 		<script src="script/quiz.js"></script>
     </article> 
 </section>
