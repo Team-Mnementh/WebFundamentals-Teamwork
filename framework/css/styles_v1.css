@@ -109,6 +109,7 @@ body > section > div section button {
   font-weight: bold;
   padding: 5%;
   margin-bottom: 5%;
+  outline: 0;
 }
 body > section > div section p {
   font-size: 2em;
