@@ -12,5 +12,5 @@
 			<h3>
 		</header>
 
-		<iframe src="http://www.youtube.com/embed/yHn_uhOxZSE" allowfullscreen></iframe>
+		<iframe src="http://www.youtube.com/embed/yHn_uhOxZSE" width="420" height="315" allowfullscreen></iframe>
 </section>
