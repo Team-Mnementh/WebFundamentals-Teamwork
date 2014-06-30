@@ -11,21 +11,21 @@
 
 		<nav>
 			<ul>
-				<li><a href="http://su.gloffice.eu">Main</a></li>
-				<li><a href="#">Jokes</a>
+				<li><a href="/">Начало</a></li>
+				<li><a href="#">Смях</a>
 					<ul>
-						<li><a href="http://su.gloffice.eu/jokes">Jokes</a></li>
-						<li><a href="http://su.gloffice.eu/poems">Poems</a></li>
-						<li><a href="http://su.gloffice.eu/tales">Tales</a></li>
+						<li><a href="jokes">Вицове</a></li>
+						<li><a href="poems">Лирика</a></li>
+						<li><a href="tales">Приказки</a></li>
 					</ul>
 				</li>				
-				<li><a href="quiz">Quiz</a></li>
-				<li><a href="http://su.gloffice.eu/dreamer">Dreamer</a></li>
-				<li><a href="http://su.gloffice.eu/pictures">Pictures</a></li>
-				<li><a href="#">Video</a>
+				<li><a href="quiz">Тест</a></li>
+				<li><a href="dreamer">Съновник</a></li>
+				<li><a href="pictures">Снимки</a></li>
+				<li><a href="#">Видео</a>
 					<ul>
-						<li><a href="http://su.gloffice.eu/clips">Clips</a></li>
-						<li><a href="http://su.gloffice.eu/lectures">Lectures</a></li>
+						<li><a href="clips">Клипове</a></li>
+						<li><a href="lectures">Лекции</a></li>
 					</ul>
 				</li>
 			</ul>

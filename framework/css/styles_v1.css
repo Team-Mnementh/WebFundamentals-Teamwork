@@ -42,6 +42,9 @@ body header nav ul li {
   display: inline-block;
   position: relative;
 }
+body header nav ul li:nth-child(2) {
+  z-index: 10;
+}
 body header nav ul li:hover ul {
   display: block;
   font-size: .8em;
@@ -90,24 +93,25 @@ body > section article p {
   text-align: justify;
   margin: 2%;
 }
-body > section div {
-  width: 20%;
-  height: 200px;
+body > section > div {
+  text-align: center;
+  width: 50%;
   margin: 0 auto;
 }
-body > section div section {
-  text-align: center;
+body > section > div > p {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 5%;
 }
-body > section div section button {
+body > section > div section button {
   border-radius: 50%;
   font-size: 2em;
   font-weight: bold;
-  padding: 10%;
+  padding: 5%;
   margin-bottom: 5%;
 }
-body > section div section textarea {
-  min-width: 100%;
-  height: 60px;
+body > section > div section p {
+  font-size: 2em;
 }
 body .jokes {
   width: 60%;
@@ -124,11 +128,12 @@ body .poems article {
 body .poems article p {
   padding-left: 30%;
 }
-body .tales {
+body .tales header {
   width: 60%;
+  margin: 0 auto;
 }
-body .tales article {
-  padding: 1% 15%;
+body .question article form {
+  padding-left: 20%;
 }
 body .question article form div {
   width: 80%;
@@ -140,6 +145,25 @@ body .question article form div p {
 }
 body .question article form div label {
   font-size: 1.6em;
+}
+body .question article button {
+  display: block;
+  border-radius: 50%;
+  font-size: 1.8em;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .dreamer {
+  width: 100%;
+}
+body .dreamer header {
+  width: 80%;
+  margin: 0 auto;
+}
+body .dreamer pre {
+  font-size: 1.8em;
+  margin-left: 5%;
 }
 body .pictures {
   text-align: center;
@@ -160,13 +184,13 @@ body .video article iframe {
 }
 body footer {
   background-color: #000;
-  border-top: 4px outset grey;
-  border-top-left-radius: 10%;
-  border-top-right-radius: 10%;
+  border-top: 12px outset grey;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
 }
 body footer section {
   width: 80%;
-  margin: 2% auto 1%;
+  margin: 2% auto 0;
 }
 body footer section div {
   display: inline-block;

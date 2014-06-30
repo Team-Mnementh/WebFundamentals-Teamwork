@@ -50,16 +50,14 @@
 	</article>
 
 	<div>
-		<header>
-			<h3>Изтегли си късметче:</h3>
-		</header>
+		<p>Изтегли си</p>			
 		
 		<section>
 			<button onclick="getWish()">Късметче</button>
 
-			<textarea id="text" placeholder="Днес ще..."></textarea>
+			<p id="text">Днес ?!?</p>
 			
 			<script src="../script/luckyScript.js" ></script>				
 		</section>			
-	</div>	
+	</div>
 </section>

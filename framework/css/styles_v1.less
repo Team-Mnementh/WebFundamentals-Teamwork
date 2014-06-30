@@ -46,6 +46,11 @@ body {
                     display: inline-block;
                     position: relative;
 
+                    &:nth-child(2) {
+
+                        z-index: 10;
+                    }
+
                     &:hover {
 
                         ul {
@@ -124,29 +129,33 @@ body {
             }
         }
 
-        div {
+        & > div {
             
-            width: 20%;
-            height: 200px;
+            text-align: center;
+            width: 50%;
             margin: 0 auto;
 
-            section {
+            & > p {
 
-                text-align: center;
+                font-size: 1.6em;
+                font-weight: bold;
+                margin-bottom: 5%;
+            }
+
+            section {                
 
                 button {
                 
                     border-radius: 50%;
                     font-size: 2em;
                     font-weight: bold;
-                    padding: 10%;
+                    padding: 5%;
                     margin-bottom: 5%;
                 }
 
-                textarea {
+                p {
 
-                    min-width: 100%;
-                    height: 60px;
+                    font-size: 2em;
                 }
             }
         }
@@ -177,7 +186,11 @@ body {
 
     .tales {
 
-        .jokes;
+        header {
+
+            width: 60%;
+            margin: 0 auto;
+        }
     }
 
     .question {
@@ -185,6 +198,8 @@ body {
         article {
 
             form {
+
+                padding-left: 20%;
 
                 div {                    
 
@@ -203,7 +218,34 @@ body {
                     }
                 }
             }
+
+            button {
+                
+                display: block;
+                border-radius: 50%;
+                font-size: 1.8em;
+                padding: 2%;
+                margin-left: auto;
+                margin-right: auto;
+            }
         }
+    }
+
+    .dreamer { 
+
+        width: 100%;
+
+        header {
+
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        pre {
+
+            font-size: 1.8em;
+            margin-left: 5%;
+        }               
     }
 
     .pictures {
@@ -237,14 +279,14 @@ body {
     footer {
 
         background-color: #000;
-        border-top: 4px outset grey;
-        border-top-left-radius: 10%;
-        border-top-right-radius: 10%;
+        border-top: 12px outset grey;
+        border-top-left-radius: 30%;
+        border-top-right-radius: 30%;
 
         section {
 
             width: 80%;
-            margin: 2% auto 1%;
+            margin: 2% auto 0;
             
             div {
 
