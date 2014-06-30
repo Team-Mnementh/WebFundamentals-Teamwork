@@ -1,5 +1,4 @@
-<section class="question">
-        
+<section class="question">        
     <header>
         <h2>SoftUni тест </h2> 
     </header>
@@ -9,7 +8,7 @@
             <h3>Истинска SoftUni нинджа ли си?</h3>
         </header>
 
-        <form action="" method="POST">
+        <form action="" method="POST" id="quiz">
             
             <div>
                 
@@ -176,5 +175,11 @@
         </form>
 		<button onclick="quizRezult();">Дай да видя!</button>
 		<script src="script/quiz.js"></script>
-    </article> 
+    </article>
+    
+    <div id="popup">
+        <p id="quiz-result">opa</p>
+        <button onclick="hidePopup();" class="button"> Скрий </button>
+    </div>
+    <div id="pad"></div>
 </section>

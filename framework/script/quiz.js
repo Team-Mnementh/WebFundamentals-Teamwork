@@ -1,11 +1,29 @@
+window.onload = initialize;
+
+function initialize() {
+    hidePopup();
+}
+
+function displayPopup() {
+    document.getElementById('pad').style.display = 'block';
+    document.getElementById('popup').style.display = 'block';
+}
+
+function hidePopup() {
+    document.getElementById('popup').style.display = 'none';
+    document.getElementById('pad').style.display = 'none';
+}
+
+
 function quizRezult() {
     var userAnswers = getAnswers();
     if(userAnswers == "") {
         return;
     }
     var result = calculateResult(userAnswers);    
-    var userProfile = getProfile(result);    
-    alert(userProfile);
+    var userProfile = getProfile(result);
+    document.getElementById('quiz-result').innerHTML = userProfile;
+    displayPopup();
     document.getElementById("quiz").reset();
 }
 
