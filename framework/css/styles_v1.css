@@ -173,6 +173,8 @@ body .pictures {
 body .pictures img {
   max-width: 100%;
   padding: 2%;
+  width: 350px;
+  height: 240px;
 }
 body .video article {
   text-align: center;

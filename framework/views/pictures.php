@@ -11,10 +11,12 @@
 				Soft Uni
 			<h3>
 		</header>
-		
-		<img src="../images/gallery/CSharp.jpg" alt="CSharp.jpg" width="250" height="330" >
+		<a class="fancybox" rel="gallery1" href="../images/gallery/CSharp.jpg">
+        <img src="../images/gallery/CSharp.jpg" alt="CSharp" /> </a>
 
-		<img src="../images/gallery/softUniHavaiiParty.jpg" alt="softUniHavaiiParty.jpg" width="350" height="240" >		
+        <a class="fancybox" rel="gallery1" href="../images/gallery/softUniHavaiiParty.jpg">
+        <img src="../images/gallery/softUniHavaiiParty.jpg" alt="softUniHavaiiParty" /> </a>
+
 	</article>
 
 	<hr />
@@ -25,9 +27,12 @@
 				Животни
 			<h3>
 		</header>
-			<img src="../images/gallery/birds.jpg" alt="birds.jpg" width="350" height="240" >
+			<a class="fancybox" rel="gallery1" href="../images/gallery/birds.jpg">
+            <img src="../images/gallery/birds.jpg" alt="birds" /> </a>
 
-			<img src="../images/gallery/snakes.gif" alt="snakes.gif" width="350" height="240" >	
+            <a class="fancybox" rel="gallery1" href="../images/gallery/snakes.gif">
+            <img src="../images/gallery/snakes.gif" alt="snakes" /> </a>
+
 	</article>
 
 	<hr />
@@ -38,6 +43,9 @@
 				Програмисти
 			<h3>
 		</header>
-			<img src="../images/gallery/users-programmers.jpg" alt="users-programmers.jpg" width="350" height="240" >
+		
+			<a class="fancybox" rel="gallery1" href="../images/gallery/users-programmers.jpg">
+            <img src="../images/gallery/users-programmers.jpg" alt="snakes" /> </a>
+			
 	</article>
 </section>
