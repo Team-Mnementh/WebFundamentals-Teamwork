@@ -9,7 +9,7 @@
 		<header>
 			<h3>
 				Група ФМИ (Фатални Мосъчни Изкривявания)
-			<h3>
+			</h3>
 		</header>
 
 		<iframe src="http://www.youtube.com/embed/oggZ90EXIJQ" width="420" height="315" allowfullscreen></iframe>
@@ -25,7 +25,7 @@
 		<header>
 			<h3>
 				Java завинаги
-			<h3>
+			</h3>
 		</header>
 
 		<iframe src="http://www.youtube.com/embed/RnqAXuLZlaE" width="420" height="315" allowfullscreen></iframe>

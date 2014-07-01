@@ -8,7 +8,7 @@
             <h3>Истинска SoftUni нинджа ли си?</h3>
         </header>
 
-        <form action="" method="POST" id="quiz">
+        <form action="#" method="POST" id="quiz">
             
             <div>
                 

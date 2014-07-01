@@ -62,19 +62,31 @@ class Dispatcher {
 		$title = "";
 		$selected = $controller;		
 		switch ($controller) {
-			case "contacts":
-				$title = "Контакти";
+			case "tales":
+				$title = "Приказки";
 				break;
 			case "jokes":
 				$title = "Вицове";
 				break;
-			case "test":
-				$title = "Тестова страница";
+			case "poems":
+				$title = "Хумористична поезия";
 				break;
-                        case "dreamer":
+                        case "quiz":
+				$title = "SoftUni тест";
+				break;
+			case "dreamer":
 				$title = "SoftUni съновник";
 				break;
-			default:
+                        case "pictures":
+				$title = "Галерия";
+				break;
+                        case "clips":
+				$title = "Видео клипове";
+				break;
+                        case "lectures":
+				$title = "Lekcii";
+				break;       
+                        default:
 				$title = "Начало";
 			break;
 		}
