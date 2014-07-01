@@ -1,9 +1,7 @@
 		<footer>
 			<section>
 				<div>
-					<header>
-						<h4>Полезни линкове:</h4>
-					</header>
+                	<h2>Полезни линкове:</h2>
 					
 					<p>Валидатори за HTML5 и CSS3:</p>
 					
