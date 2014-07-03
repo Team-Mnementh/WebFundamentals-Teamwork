@@ -16,16 +16,22 @@ p {
   src: url("../fonts/SketchRockwell-Bold.ttf");
 }
 body {
+  background-color: #ffa500;
   font-family: 'Tahoma', Calibri, Arial, sans-serif;
   font-size: 62.5%;
   width: 100%;
 }
 body header {
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  border-bottom: 12px outset rgba(0, 128, 0, 0.6);
   font-family: 'SketchRockwell', Tahoma;
 }
 body header h1 {
-  font-size: 4em;
+  font-size: 6em;
   font-family: SketchRockwell;
+  color: #008000;
+  text-shadow: 8px 8px 32px #808000;
   text-align: center;
   padding-top: 1.5%;
   padding-bottom: 2%;
@@ -39,13 +45,13 @@ body header nav ul {
 }
 body header nav ul li {
   display: inline-block;
-  border: 4px outset grey;
+  border: 4px outset #e8a015;
   border-radius: 5px 20px;
-  background-color: #000;
+  background-color: #faed17;
   font-size: 2em;
   color: #fff;
   list-style-type: none;
-  box-shadow: 4px 2px 10px #000;
+  box-shadow: 4px 4px 10px #ffffff;
   margin-right: 10px;
   position: relative;
 }
@@ -55,8 +61,7 @@ body header nav ul li:nth-child(2) {
 body header nav ul li a {
   display: block;
   border-radius: 5px 20px;
-  color: #fff;
-  box-shadow: 4px 2px 10px #000;
+  color: #008000;
   text-decoration: none;
   padding: 10px 15px;
 }
@@ -75,7 +80,7 @@ body header nav ul li ul li a {
   font-size: .5em;
 }
 body header nav ul li:hover {
-  border: 4px inset gray;
+  border: 4px inset #faed17;
   box-shadow: none;
   opacity: .9;
   transition: all 0.2s ease 0s;
@@ -84,7 +89,18 @@ body header nav ul li:hover ul {
   display: block;
 }
 body header nav .dropdown {
+  color: #008000;
   padding: 10px 15px;
+}
+body header nav .dropdown .arrow {
+  display: inline-block;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #008000;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  margin-left: 5px;
 }
 body header nav .dropdown ul li {
   margin: 0;
@@ -98,19 +114,24 @@ body > section {
   margin: 3% auto;
 }
 body > section header {
+  border-top: 12px outset #ffff9e;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  background-color: rgba(255, 165, 0, 0.4);
   text-align: center;
 }
 body > section header h2 {
-  border: 2px solid #000;
+  border: 2px solid #808080;
   border-radius: 40%;
+  background-color: #ffffff;
   font-size: 2em;
   padding: 1.2%;
 }
 body > section article {
-  border: 2px solid #fff;
+  border: 2px solid #808080;
   border-radius: 10px;
   margin-bottom: 2%;
-  background-color: #d1d0ce;
+  background-color: #ffffff;
   padding: 2%;
 }
 body > section article header h3 {
@@ -125,6 +146,7 @@ body > section article blockquote {
   font-size: 1.4em;
 }
 body > section > div {
+  color: #FFFFDA;
   text-align: center;
   width: 50%;
   margin: 0 auto;
@@ -132,15 +154,21 @@ body > section > div {
 body > section > div > p {
   font-size: 1.6em;
   font-weight: bold;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 body > section > div section button {
   border-radius: 50%;
+  border: 4px outset grey;
   font-size: 2em;
   font-weight: bold;
-  padding: 5%;
+  color: #a0630b;
+  padding: 4%;
   margin-bottom: 5%;
   outline: 0;
+}
+body > section > div section button:hover {
+  border: 4px inset grey;
+  cursor: pointer;
 }
 body > section > div section p {
   font-size: 2em;
@@ -185,12 +213,18 @@ body .question article form div label {
 }
 body .question article button {
   display: block;
+  border: 4px outset grey;
   border-radius: 50%;
   font-size: 1.8em;
+  font-weight: bold;
+  color: #a0630b;
   padding: 2%;
   margin-left: auto;
   margin-right: auto;
   outline: 0;
+}
+body .dreamer {
+  font-size: 1.4em;
 }
 body .dreamer article {
   margin-top: 4%;
@@ -207,7 +241,7 @@ body .dreamer article .var {
   color: maroon;
 }
 body .dreamer article .val {
-  color: salmon;
+  color: tomato;
 }
 body .dreamer article .pad-1 {
   padding-left: 3%;
@@ -219,8 +253,12 @@ body .pictures {
   text-align: center;
 }
 body .pictures header h2 {
+  font-size: 2.5em;
   width: 90%;
   margin: 1% auto;
+}
+body .pictures article header h3 {
+  font-size: 2em;
 }
 body .pictures img {
   max-width: 100%;
@@ -236,12 +274,13 @@ body .video article iframe {
   padding: 10px;
 }
 body footer {
-  background-color: #000;
-  border-top: 12px outset grey;
+  border-top: 12px outset #ffff9e;
   border-top-left-radius: 30%;
   border-top-right-radius: 30%;
+  background-color: #ffa500;
 }
 body footer section {
+  color: #ba720c;
   width: 80%;
   margin: 2% auto 0;
 }
@@ -278,6 +317,9 @@ body footer section div a {
   margin-bottom: 2%;
 }
 @media screen and (max-width: 768px) {
+  body header h1 {
+    font-size: 5em;
+  }
   body header nav ul {
     width: 500px;
     margin-left: auto;
@@ -306,6 +348,9 @@ body footer section div a {
   }
 }
 @media screen and (max-width: 480px) {
+  body header h1 {
+    font-size: 4em;
+  }
   body header nav ul {
     width: 100%;
   }

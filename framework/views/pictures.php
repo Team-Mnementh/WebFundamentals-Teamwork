@@ -19,8 +19,6 @@
 
 	</article>
 
-	<hr />
-
 	<article>
 		<header>
 			<h3>
@@ -34,8 +32,6 @@
             <img src="../images/gallery/snakes.gif" alt="snakes" width="400" height="300" /> </a>
 
 	</article>
-
-	<hr />
 
 	<article>
 		<header>

@@ -9,20 +9,52 @@ html, body, header, h1,section, nav, ul, li, a, p {
     src: url("../fonts/SketchRockwell-Bold.ttf");
 }
 
-body {
+@backgroundColor: orange;
 
+// header font styles
+@headerFontColor: green;
+@headerFontShadow: olive;
+@headerBorderColor: rgba(0, 128, 0, .6);
+
+// navigation color styles
+@buttonBorder: #e8a015;
+@buttonBackground: #faed17;
+@buttonText: green;
+@buttonShadow: white;
+
+// section color styles
+@sectionHeaderBorderColor: grey;
+@sectionHeaderBackgroundColor: #fff;
+    @sectionSubHeaderBorderColor: #FFFF9E;
+    @sectionSubHeaderBackgroundColor: rgba(255, 165, 0, .4);
+@articleBorderColor: grey;
+@articleBackgroundColor: #fff;
+
+
+// footer color styles
+@footerBorderColor: #FFFF9E;
+@footerBackgroundColor: orange;
+
+body {
+    
+    background-color: @backgroundColor;
     font-family: 'Tahoma', Calibri, Arial, sans-serif;
     font-size: 62.5%;
     width: 100%;    
     
     header {
-
+        
+        border-bottom-left-radius: 30%;
+        border-bottom-right-radius: 30%;
+        border-bottom: 12px outset @headerBorderColor;
         font-family: 'SketchRockwell', Tahoma;
 
         h1 {
 
-            font-size: 4em;
+            font-size: 6em;
             font-family: SketchRockwell;
+            color:@headerFontColor;
+            text-shadow: 8px 8px 32px @headerFontShadow;
             text-align: center;
             padding-top: 1.5%;
             padding-bottom: 2%;
@@ -43,13 +75,13 @@ body {
                 li {
 
                     display: inline-block;
-                    border: 4px outset grey;
+                    border: 4px outset @buttonBorder;
                     border-radius: 5px 20px;
-                    background-color: #000;
+                    background-color: @buttonBackground;
                     font-size: 2em;
                     color: #fff;
                     list-style-type: none;
-                    box-shadow: 4px 2px 10px #000;
+                    box-shadow: 4px 4px 10px @buttonShadow;
                     margin-right: 10px;
                     position: relative;
 
@@ -62,9 +94,9 @@ body {
 
                         display: block;
                         border-radius: 5px 20px;
-                        color: #fff;
-                        box-shadow: 4px 2px 10px #000;
+                        color: @buttonText;        
                         text-decoration: none;
+                        // box-shadow: 6px 6px 15px @buttonShadow;
                         padding: 10px 15px;
                     }
 
@@ -90,7 +122,7 @@ body {
 
                     &:hover {
 
-                        border: 4px inset gray;
+                        border: 4px inset @buttonBackground;
                         box-shadow: none;
                         opacity: .9;
                         transition: all 0.2s ease 0s;
@@ -105,12 +137,26 @@ body {
         
 
             .dropdown {
+                
+                // draw arrow
+                .arrow {
 
+                    display: inline-block;          
+                    border-left: 5px solid transparent;
+                    border-right: 5px solid transparent;                 
+                    border-top: 5px solid @buttonText;
+                    width: 0; 
+                    height: 0; 
+                    vertical-align: middle;
+                    margin-left: 5px;
+                }
+                
+                color: @buttonText;
                 padding: 10px 15px;
 
                 ul {
 
-                    li {                    
+                    li {                   
                         
                         margin: 0;
 
@@ -132,12 +178,18 @@ body {
 
         header {
 
+            border-top: 12px outset @sectionSubHeaderBorderColor;
+            border-top-left-radius: 30%;
+            border-top-right-radius: 30%;
+            background-color: @sectionSubHeaderBackgroundColor;
+
             text-align: center;
 
             h2 {
 
-                border: 2px solid #000;
-                border-radius: 40%;                
+                border: 2px solid @sectionHeaderBorderColor;
+                border-radius: 40%;
+                background-color: @sectionHeaderBackgroundColor;               
                 font-size: 2em;
                 padding: 1.2%;
             }
@@ -145,10 +197,10 @@ body {
 
         article {
 
-            border: 2px solid #fff;
+            border: 2px solid @articleBorderColor;
             border-radius: 10px;
             margin-bottom: 2%;
-            background-color: rgba(209, 208, 206, 10);
+            background-color: @articleBackgroundColor;
             padding: 2%;
 
             header {
@@ -175,6 +227,7 @@ body {
         // luckie button
         & > div {
             
+            color: #FFFFDA; 
             text-align: center;
             width: 50%;
             margin: 0 auto;
@@ -183,19 +236,27 @@ body {
 
                 font-size: 1.6em;
                 font-weight: bold;
-                margin-bottom: 5%;
+                margin-bottom: 2%;
             }
 
-            section {                
+            section {               
 
                 button {
                 
                     border-radius: 50%;
+                    border: 4px outset grey;
                     font-size: 2em;
                     font-weight: bold;
-                    padding: 5%;
+                    color: #a0630b;
+                    padding: 4%;
                     margin-bottom: 5%;
                     outline: 0;
+
+                    &:hover {
+                        
+                        border: 4px inset grey;
+                        cursor: pointer;
+                    }
                 }
 
                 p {
@@ -277,8 +338,11 @@ body {
             button {
                 
                 display: block;
+                border: 4px outset grey;
                 border-radius: 50%;
                 font-size: 1.8em;
+                font-weight: bold;
+                color: #a0630b;
                 padding: 2%;
                 margin-left: auto;
                 margin-right: auto;
@@ -288,6 +352,9 @@ body {
     }
 
     .dreamer { 
+        
+        font-size: 1.4em;
+
         article {
             margin-top: 4%;
             p{
@@ -305,7 +372,8 @@ body {
             }
 
             .val{
-                color: salmon;
+                // color: salmon;
+                color: tomato;
             }
 
             .pad-1{
@@ -325,11 +393,23 @@ body {
         header {
 
             h2 {
-
+                
+                font-size: 2.5em;
                 width: 90%;
                 margin: 1% auto;
             }
-        }      
+        }
+
+        article {
+
+            header {
+
+                h3 {
+
+                    font-size: 2em;
+                }
+            }
+        }     
 
         img { 
             max-width: 100%;
@@ -355,13 +435,14 @@ body {
 
     footer {
 
-        background-color: #000;
-        border-top: 12px outset grey;
+        border-top: 12px outset @footerBorderColor;
         border-top-left-radius: 30%;
         border-top-right-radius: 30%;
+        background-color: @footerBackgroundColor;
 
         section {
-
+            
+            color: #ba720c;
             width: 80%;
             margin: 2% auto 0;
             
@@ -416,6 +497,11 @@ body {
     body {
 
         header {
+
+            h1 {
+
+                font-size: 5em;
+            }
 
             nav {
 
@@ -486,6 +572,11 @@ body {
     body {
 
         header {
+
+            h1 {
+
+                font-size: 4em;
+            }
 
             nav {
 
